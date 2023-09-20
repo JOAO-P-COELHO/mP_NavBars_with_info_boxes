@@ -39,7 +39,7 @@
         <li><a href="#">Science</a></li>
     </ul>
 </nav>
-<img id="imagex" src="https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?cs=srgb&dl=pexels-johannes-plenio-1423600.jpg&fm=jpg" alt="">
+<img id="imagex" src="https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?cs=srgb&dl=pexels-johannes-plenio-1423600.jpg&fm=jpg" alt="Site background">
 
 <div class="info-box">
     <div class="info-title">
@@ -52,20 +52,43 @@
 </div>
 
 <div class="content-box">
-    <p class="content-before"> <i>Press me too, please <span style="font-size: 12px">(this div is still being fixed)</span></i> </p>
-    <p class="content-after">This is other little experienced I did using jQuery, this time with <i>.animate()</i> This one is somewhat like the previous one but the paragraphs appear slowly.</p>
-    </div>
+    <p class="content-before"> <i>Press me too<span style="font-size: 12px">(this div is still being fixed)</span></i> </p>
+    <p class="content-after">This is other little experienced I did using jQuery, this time with <i>.animate()</i> This one is somewhat like the previous one, but the text in the paragraphs appear slowly. <br><i>(It doesn't close after you clicked it - yet -, I have to fix it!)</i></p>
+</div>
 
-    <div class="form">
-        <p class="form-title">Form</p>
-        <form action="">
+<div >
+    <p class="form-title">Form (Press me)</p>
+        <form class="form" action="">
+            <p>What this sector does is: when you click hide or view, the password becomes invisible or visible, respectively.</p>
             <label for="user">User:</label><br>
             <input type="text" id="user" placeholder="User"><br>
             <label for="pass">Password:</label><br>
             <input type="password" id="pass" placeholder="Pass"><br><br>
-            <button onclick="changePwdView()" type="button">View/Hide</button>
+            <button id="hv" onclick="changePwdView()" type="button">View/Hide</button>
           </form>  
+</div>
+
+<div class="know-img">
+    <p class="img-title">Img (Press me)</p>
+    <div class="img-box">
+        <p>When you click on the button, it will give you the source of the image in the background, so you can download it.</p>
+        <button id="img-btn" type="button">Give the image link!</button>
     </div>
+     
+</div>
+
+<div class="hover-box">
+    <p class="hover-title">Put your mouse over me</p>
+    <p class="hover-p">This is other little experienced I did using jQuery, this time by "playing" with <i>hover().</i></p>
+</div>
+
+<div class="coord-box">
+    <p class="coord-title">Click me and the move your mouse!</p>
+    <p class="coord-p">This is other little experienced I did using jQuery, this time by "playing" with the coordinates of your mouse.</i><br><br><span class="coords"></span></p>
+    
+    
+    </p>
+</div>
 
 <footer>Copyright <small>&copy;  2023 -<i> this website was created by João P. Coelho </i></footer>
 </div>

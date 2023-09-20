@@ -164,3 +164,81 @@ form{
     align-items: baseline;
     
 }
+
+.form-title{
+    cursor: pointer; 
+    text-align: center; 
+    background-color: rgba(16, 137, 78, 0.189);
+    font-style: italic;
+    margin-bottom: 0px;
+    padding: 2px;
+}
+
+.img-title{
+    cursor: pointer; 
+    text-align: center; 
+    background-color: rgba(111, 165, 139, 0.189);
+    font-style: italic;
+    padding: 2px;
+    margin-bottom: 0px;
+}
+
+button {
+	box-shadow:0px 1px 3px 0px black;
+	background:linear-gradient(to bottom, #59b389 5%, #6fb9c4 100%);
+	background-color:#59b389;
+	border-radius:7px;
+	border:1px solid grey;
+	cursor:pointer;
+	color:#ffffff;
+	font-style:italic;
+	padding:4px 23px;
+	text-decoration:none;
+	text-shadow:2px -1px 1px #3d768a;
+  
+}
+button:hover {
+	background:linear-gradient(to bottom, #6fb9c4 5%, #59b389 100%);
+	background-color:#6fb9c4;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+#img-btn{
+display:table;
+margin:auto;
+margin-bottom: 10px;
+}
+
+#hv{
+    display:table;
+    margin-left: 6px;
+}
+
+.hover-title{
+    cursor: pointer; 
+    text-align: center; 
+    background-color: rgba(16, 137, 78, 0.189);
+    font-style: italic;
+    margin-bottom: 0px;
+    padding: 2px;
+}
+
+.coord-title{
+    cursor: pointer; 
+    text-align: center; 
+    background-color: rgba(111, 165, 139, 0.189);
+    font-style: italic;
+    margin-bottom: 0px;
+    padding: 2px;
+}
+
+.coords{
+   display:table;
+   margin:auto;
+   border: 3px solid rgba(16, 137, 78, 0.189);
+   padding: 10px;
+   font-weight: bold;
+}
