@@ -18,3 +18,23 @@ $( ".content-box" ).click(function(){
 });
 
 
+/* This part above makes my password hide or show */
+let viewLoginPwd = false;
+
+function changePwdView ()
+{
+  let getPwdView = $("#pass");
+
+  if(viewLoginPwd === false)
+  {
+    getPwdView.attr("type","text");
+    viewLoginPwd = true;
+  }
+else if (viewLoginPwd === true) {
+  getPwdView.attr("type","password");
+  viewLoginPwd = false;
+  }
+}
+
+
+
